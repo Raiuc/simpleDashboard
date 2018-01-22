@@ -1,0 +1,6 @@
+Django==1.11
+django-bootstrap-calendar==0.1.1
+django-debug-toolbar==1.9.1
+jsmin==2.2.2
+pytz==2017.3
+sqlparse==0.2.4

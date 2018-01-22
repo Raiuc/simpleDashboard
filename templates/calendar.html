@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bootstrap_calendar %}
+{% bootstrap_controls 'optional-css-classes' %}
+{% bootstrap_calendar 'optional-css-classes' %}
+
+
+{% block content %}
+<div class="row-fluid">
+    <div class="span12">
+        {% bootstrap_controls 'from-inline pull-right' %}
+    </div>
+</div>
+<div class="clear-fix">
+</div>
+<div class="row">
+    <div class="span7">
+        {% bootstrap_calendar '' %}
+
+    </div>
+    <div class="span3">
+        test
+    </div>
+</div>
+{% endblock %}
