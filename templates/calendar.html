@@ -1,8 +1,12 @@
 {% extends 'base.html' %}
 {% load i18n %}
 {% load bootstrap_calendar %}
+{% bootstrap_calendar_css %}
+
 {% bootstrap_controls 'optional-css-classes' %}
 {% bootstrap_calendar 'optional-css-classes' %}
+{% bootstrap_calendar_js language="template" %}
+{% bootstrap_calendar_init language="template" %}
 
 
 {% block content %}
